@@ -20,11 +20,24 @@
     <title>Aziz Amari - Software Developer</title>
   </head>
   <body>
-
+    <nav class="navbar navbar-expand-sm navbar-dark bg-light fixed-top shadow p-3" style="background-color: #192bc2 !important;">
+      <a class="navbar-brand bad-script-font" href="#home">Aziz Amari</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#about">About<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link active" href="#skills">Skills <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link active" href="#latest-work">Projects <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link active" href="#contact">Contact <span class="sr-only">(current)</span></a>
+        </div>
+      </div>
+    </nav>
     <div id="fakeloader"></div>
 
     <!-- Menu -->
-    <div id="menu" class="overlay-menu">
+    <!-- <div id="menu" class="overlay-menu">
       <a href="javascript:void(0)" class="close-btn" id="close-menu-btn">&times;</a>
       <div class="menu-links">
         <a class="menu-link" href="#about">About</a>
@@ -33,7 +46,7 @@
         <a class="menu-link" href="#contact">Contact Me</a>
         <a class="menu-link" href="./assets/resumes/OthneilDrewWebDeveloperResume.pdf" target="_blank">Resume</a>
       </div>
-    </div>
+    </div> -->
     <!-- END Menu -->
 
     <!-- START OF MAIN PAGE CONTENT -->
@@ -41,7 +54,7 @@
       <div class="section d-flex" id="home">
         <nav class="navbar align-items-start navbar-dark mt-3 py-2 wow bounceInDown" id="top-navbar" data-wow-delay="1.2s">
           <div class="container">
-            <a href="https://www.othneildrew.com" class="navbar-brand bad-script-font">Aziz Amari</a>
+            <a href="https://www.azizamari.github.io" class="navbar-brand bad-script-font">Aziz Amari</a>
             <button class="navbar-toggler rounded-0" id="menu-btn" type="button">
               <small>MENU</small> <i class="material-icons">clear_all</i>
             </button>
@@ -82,8 +95,8 @@
             </div>
           </div>
 
-          <h3 class="section-title mt-0 mb-4 text-center text-white">Skills</h3>
-          <div class="row mt-5" id="skills">
+          <h3 class="section-title mt-0 mb-4 text-center text-white"id="skills">Skills</h3>
+          <div class="row mt-5">
             <div class="col-12 col-md-6 col-lg-4">
               <div class="skill-card my-3 wow flipInY">
                 <p class="text-center"><i class="fas fa-pencil-ruler"></i>Graphic Design</p>
