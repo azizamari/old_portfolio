@@ -246,7 +246,15 @@ body {
 
 #testimonials p.lead {
   font-size: 2em;
-  font-weight: 600
+  font-weight: 500
+}
+p.top{
+  font-size: 1.7em;
+  font-weight: 500
+}
+p.about{
+  font-size: 1.3em;
+  font-weight: 500
 }
 
 .blockquote-footer cite {
