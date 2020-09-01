@@ -61,12 +61,4 @@ $(function() {
   function closeNav() {
     $('#menu').css('height', '0%');
   }
-
-});
-$(function(){ 
-  var navMain = $(".navbar-collapse");
-
-  navMain.on("click", "a", null, function () {
-      navMain.collapse('hide');
-  });
 });
