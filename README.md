@@ -1,3 +1,2 @@
 # Portfolio
-My portfolio
-Check deployed verios at https://azizamari.cf
+Check deployed version at https://azizamari.cf
